@@ -1,7 +1,7 @@
 import math
 from src.funtion.abstest import my_abs
 
-print(my_abs(-1))
+print(my_abs('-a1'))
 
 
 def move(x, y, step, angle=0):

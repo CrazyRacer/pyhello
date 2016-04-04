@@ -21,5 +21,11 @@ print(d)
 # dict可以用在需要高速查找的很多地方，在Python代码中几乎无处不在，正确使用dict非常重要，需要牢记的第一条就是dict的key必须是不可变对象。
 
 # list不可作为dict的key 因为list可变
-key = [1, 2, 3]
-d[key] = 'a list'
+# key = [1, 2, 3]
+# d[key] = 'a list'
+
+
+
+m ={}
+m[0]=1
+print(m)
